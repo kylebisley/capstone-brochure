@@ -13,13 +13,13 @@ const { Header, Content, Footer } = Layout;
 ReactDOM.render(
   <React.StrictMode>
     <Layout className="layout">
-      <Header style={{ height: "8vh"}}>
+      <Header style={{ height: "7vh"}}>
           <div>
-            <img src={logo} alt="Thumbs Up Pipboy" className="logo" style={{height:'6vh', position: 'absolute', bottom:'0' }} />
+            <img src={logo} alt="Thumbs Up Pipboy" className="logo" style={{height:'6vh', float:'left', marginBottom:'0' }} />
           </div>
         <StandardMenu />
       </Header>
-      <Content style={{ padding: '0 10vh', height: "calc(100vh - 10vh - 8vh)" }}>
+      <Content style={{ padding: '0 10vh', height: "calc(100vh - 10vh - 7vh)" }}>
         <Welcome />
       </Content>
       <Footer style={{ textAlign: 'center', backgroundColor: "yellow", height: "10vh" }}>
