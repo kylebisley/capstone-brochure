@@ -5,7 +5,7 @@ import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import Welcome from './Welcome.js';
 import StandardMenu from './StandardMenu.js';
 import './index.css';
-import logo from './thumbs-up-pip.png';
+import logo from '../Resources/thumbs-up-pip.png';
 
 const { Header, Content, Footer } = Layout;
 
