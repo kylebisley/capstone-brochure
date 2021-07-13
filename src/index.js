@@ -15,7 +15,7 @@ ReactDOM.render(
     <Layout className="layout">
       <Header style={{ height: "7vh"}}>
           <div>
-            <img src={logo} alt="Thumbs Up Pipboy" className="logo" style={{height:'6vh', float:'left', marginBottom:'0' }} />
+            <img src={logo} alt="Thumbs Up Pipboy" className="logo" style={{height:'7vh', float:'left' }} />
           </div>
         <StandardMenu />
       </Header>
