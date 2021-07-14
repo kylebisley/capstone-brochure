@@ -9,6 +9,8 @@ import AboutTeam from './AboutTeam.js';
 import './index.css';
 import logo from './Resources/thumbs-up-pip.png';
 import AboutSponsor from './AboutSponsor.js';
+import AboutProject from './AboutProject.js';
+
 
 class App extends React.Component {
   constructor(props){
