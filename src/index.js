@@ -10,6 +10,7 @@ import './index.css';
 import logo from './Resources/thumbs-up-pip.png';
 import AboutSponsor from './AboutSponsor.js';
 import AboutProject from './AboutProject.js';
+import AboutCapstone from './AboutCapstone.js';
 
 
 class App extends React.Component {
@@ -55,7 +56,7 @@ class Display extends React.Component {
     switch(this.props.current){
       case('welcome'):
         this.state = {
-          tab: <Welcome />
+          tab: <AboutCapstone />
         }
         break;
       case('AboutProject'):
