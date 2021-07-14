@@ -1,14 +1,13 @@
 import React from 'react';
 import { Space, Card } from 'antd';
-import cubohLogo from '../Resources/cuboh_light.png';
-
+import cubohLogo from './Resources/cuboh_dark.png';
 
 
 class AboutSponsor extends React.Component {
 
     render() {
         return (
-        <Space direction="vertical horizontal">
+        <Space direction="vertical">
             <Card title="Project Sponsored by Cuboh" style={{ padding: '1vh 1vw 1vh 1vw' }}>
                 <Space direction="horizontal">
                     <a href="https://www.cuboh.com/">
