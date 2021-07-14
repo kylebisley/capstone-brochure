@@ -4,8 +4,10 @@ import { Layout } from 'antd';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import Welcome from './Welcome.js';
 import StandardMenu from './StandardMenu.js';
+import AboutTeam from './AboutTeam.js';
+
 import './index.css';
-import logo from '../Resources/thumbs-up-pip.png';
+import logo from './Resources/thumbs-up-pip.png';
 
 class App extends React.Component {
   constructor(props){
@@ -60,7 +62,7 @@ class Display extends React.Component {
         break;
       case('AboutTeam'):
         this.state = {
-          tab: <Welcome />
+          tab: <AboutTeam />
         }
         break;
         
