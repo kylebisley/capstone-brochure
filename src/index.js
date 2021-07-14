@@ -9,6 +9,8 @@ import AboutTeam from './AboutTeam.js';
 import './index.css';
 import logo from './Resources/thumbs-up-pip.png';
 import AboutSponsor from './AboutSponsor.js';
+import AboutProject from './AboutProject.js';
+
 
 class App extends React.Component {
   constructor(props){
@@ -53,12 +55,12 @@ class Display extends React.Component {
     switch(this.props.current){
       case('welcome'):
         this.state = {
-          tab: <AboutSponsor />
+          tab: <AboutProject />
         }
         break;
       case('AboutProject'):
         this.state = {
-          tab: <Welcome />
+          tab: <AboutProject />
         }
         break;
       case('AboutTeam'):
@@ -69,7 +71,7 @@ class Display extends React.Component {
         
       case('AboutSponsor'):
         this.state = {
-          tab: <Welcome />
+          tab: <AboutSponsor />
         }
         break;
         

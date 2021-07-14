@@ -1,7 +1,6 @@
 import React from 'react';
 import { Space, Card } from 'antd';
-import ratings from '../Resources/cheesy_ratings_picture.png';
-
+import ratings from './Resources/cheesy_ratings_picture.png';
 
 class AboutSponsor extends React.Component {
 
