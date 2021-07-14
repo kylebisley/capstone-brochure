@@ -67,7 +67,7 @@ class Display extends React.Component {
         break;
       case('AboutProject'):
       this.setState({
-          tab: <Welcome />
+          tab: <AboutProject />
         })
         break;
       case('AboutTeam'):
