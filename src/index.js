@@ -8,6 +8,7 @@ import AboutTeam from './AboutTeam.js';
 
 import './index.css';
 import logo from './Resources/thumbs-up-pip.png';
+import AboutSponsor from './AboutSponsor.js';
 
 class App extends React.Component {
   constructor(props){
@@ -74,7 +75,7 @@ class Display extends React.Component {
         
       case('AboutSponsor'):
       this.setState({
-          tab: <Welcome />
+          tab: <AboutSponsor />
         })
         break;
         
