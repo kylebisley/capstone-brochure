@@ -55,7 +55,7 @@ class Display extends React.Component {
     switch(this.props.current){
       case('welcome'):
         this.state = {
-          tab: <AboutProject />
+          tab: <Welcome />
         }
         break;
       case('AboutProject'):
