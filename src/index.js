@@ -4,8 +4,10 @@ import { Layout } from 'antd';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import Welcome from './Welcome.js';
 import StandardMenu from './StandardMenu.js';
+import AboutTeam from './AboutTeam.js';
+
 import './index.css';
-import logo from './thumbs-up-pip.png';
+import logo from './Resources/thumbs-up-pip.png';
 
 class App extends React.Component {
   constructor(props){
@@ -47,43 +49,48 @@ class App extends React.Component {
 class Display extends React.Component {
   constructor(props){
     super(props)
-    switch(this.props.current){
-      case('welcome'):
-        this.state = {
-          tab: <Welcome />
-        }
-        break;
-      case('AboutProject'):
-        this.state = {
-          tab: <Welcome />
-        }
-        break;
-      case('AboutTeam'):
-        this.state = {
-          tab: <Welcome />
-        }
-        break;
-        
-      case('AboutSponsor'):
-        this.state = {
-          tab: <Welcome />
-        }
-        break;
-        
-      case('AboutCapstone'):
-        this.state = {
-          tab: <Welcome />
-        }
-        break;
-        
-      default:
-        this.state = {
-          tab: <Welcome />
-        }
-        break;
+    this.state = {
+      tab: <Welcome />
     }
   }
 
+  componentWillReceiveProps(nextProps) {
+    switch(nextProps.current){
+      case('welcome'):
+      this.setState({
+          tab: <Welcome />
+        })
+        break;
+      case('AboutProject'):
+      this.setState({
+          tab: <Welcome />
+        })
+        break;
+      case('AboutTeam'):
+      this.setState({
+          tab: <AboutTeam />
+        })
+        break;
+        
+      case('AboutSponsor'):
+      this.setState({
+          tab: <Welcome />
+        })
+        break;
+        
+      case('AboutCapstone'):
+      this.setState({
+          tab: <Welcome />
+        })
+        break;
+        
+      default:
+        this.setState({
+          tab: <Welcome />
+        })
+        break;
+    }
+  }
 
   render(){
     const {tab}  = this.state;
