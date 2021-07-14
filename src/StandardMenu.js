@@ -4,9 +4,13 @@ import { AppstoreOutlined, MailOutlined } from '@ant-design/icons';
 
 
 class StandardMenu extends React.Component {
-    state = {
-        current: 'welcome',
-    };
+    constructor(props) {
+      super(props);
+      this.state = {
+        current: this.props.current
+      }
+    }
+
 
     handleClick = e => {
         console.log('click ', e);
