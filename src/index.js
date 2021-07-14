@@ -52,43 +52,48 @@ class App extends React.Component {
 class Display extends React.Component {
   constructor(props){
     super(props)
-    switch(this.props.current){
-      case('welcome'):
-        this.state = {
-          tab: <Welcome />
-        }
-        break;
-      case('AboutProject'):
-        this.state = {
-          tab: <AboutProject />
-        }
-        break;
-      case('AboutTeam'):
-        this.state = {
-          tab: <AboutTeam />
-        }
-        break;
-        
-      case('AboutSponsor'):
-        this.state = {
-          tab: <AboutSponsor />
-        }
-        break;
-        
-      case('AboutCapstone'):
-        this.state = {
-          tab: <Welcome />
-        }
-        break;
-        
-      default:
-        this.state = {
-          tab: <Welcome />
-        }
-        break;
+    this.state = {
+      tab: <Welcome />
     }
   }
 
+  componentWillReceiveProps(nextProps) {
+    switch(nextProps.current){
+      case('welcome'):
+      this.setState({
+          tab: <Welcome />
+        })
+        break;
+      case('AboutProject'):
+      this.setState({
+          tab: <Welcome />
+        })
+        break;
+      case('AboutTeam'):
+      this.setState({
+          tab: <AboutTeam />
+        })
+        break;
+        
+      case('AboutSponsor'):
+      this.setState({
+          tab: <AboutSponsor />
+        })
+        break;
+        
+      case('AboutCapstone'):
+      this.setState({
+          tab: <Welcome />
+        })
+        break;
+        
+      default:
+        this.setState({
+          tab: <Welcome />
+        })
+        break;
+    }
+  }
 
   render(){
     const {tab}  = this.state;
