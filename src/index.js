@@ -36,14 +36,11 @@ class App extends React.Component {
             <div>
               <img src={logo} alt="Thumbs Up Pipboy" className="logo" style={{height:'7vh', float:'left' }} />
             </div>
-          <StandardMenu current={this.state.current} selectComponent={this.selectComponent.bind(this)}/>
+          <StandardMenu current={this.state.current} selectComponent={this.selectComponent.bind(this)} />
         </Header>
-        <Content style={{ padding: '0 10vh', height: "calc(100vh - 10vh - 7vh)" }}>
+        <Content style={{ padding: '0 10vh', minHeight: "calc(100vh - 7vh)" }}>
           <Display current={this.state.current} />
         </Content>
-        <Footer style={{ textAlign: 'center', backgroundColor: "yellow", height: "10vh" }}>
-          Just another footer. 
-        </Footer>
       </Layout>
     );
   }
@@ -108,7 +105,7 @@ class Display extends React.Component {
   }
 
 }
-const { Header, Content, Footer } = Layout;
+const { Header, Content } = Layout;
 
 ReactDOM.render(
   <React.StrictMode>
