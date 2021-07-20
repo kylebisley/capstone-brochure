@@ -1,24 +1,32 @@
 {
   "files": {
-    "main.css": "/capstone-brochure/static/css/main.e82a88be.chunk.css",
-    "main.js": "/capstone-brochure/static/js/main.acd45c0d.chunk.js",
-    "main.js.map": "/capstone-brochure/static/js/main.acd45c0d.chunk.js.map",
+    "main.css": "/capstone-brochure/static/css/main.af5f6948.chunk.css",
+    "main.js": "/capstone-brochure/static/js/main.b7dd8b87.chunk.js",
+    "main.js.map": "/capstone-brochure/static/js/main.b7dd8b87.chunk.js.map",
     "runtime-main.js": "/capstone-brochure/static/js/runtime-main.3ac146bd.js",
     "runtime-main.js.map": "/capstone-brochure/static/js/runtime-main.3ac146bd.js.map",
     "static/css/2.af9592cd.chunk.css": "/capstone-brochure/static/css/2.af9592cd.chunk.css",
-    "static/js/2.cbe388f8.chunk.js": "/capstone-brochure/static/js/2.cbe388f8.chunk.js",
-    "static/js/2.cbe388f8.chunk.js.map": "/capstone-brochure/static/js/2.cbe388f8.chunk.js.map",
+    "static/js/2.5dd87241.chunk.js": "/capstone-brochure/static/js/2.5dd87241.chunk.js",
+    "static/js/2.5dd87241.chunk.js.map": "/capstone-brochure/static/js/2.5dd87241.chunk.js.map",
     "index.html": "/capstone-brochure/index.html",
     "static/css/2.af9592cd.chunk.css.map": "/capstone-brochure/static/css/2.af9592cd.chunk.css.map",
-    "static/css/main.e82a88be.chunk.css.map": "/capstone-brochure/static/css/main.e82a88be.chunk.css.map",
-    "static/js/2.cbe388f8.chunk.js.LICENSE.txt": "/capstone-brochure/static/js/2.cbe388f8.chunk.js.LICENSE.txt",
+    "static/css/main.af5f6948.chunk.css.map": "/capstone-brochure/static/css/main.af5f6948.chunk.css.map",
+    "static/js/2.5dd87241.chunk.js.LICENSE.txt": "/capstone-brochure/static/js/2.5dd87241.chunk.js.LICENSE.txt",
+    "static/media/ChowNow.3ce2289c.png": "/capstone-brochure/static/media/ChowNow.3ce2289c.png",
+    "static/media/DoorDash.dbc08222.png": "/capstone-brochure/static/media/DoorDash.dbc08222.png",
+    "static/media/Kyle.3bdaec1b.jpg": "/capstone-brochure/static/media/Kyle.3bdaec1b.jpg",
+    "static/media/Tate.96d8f5ff.jpg": "/capstone-brochure/static/media/Tate.96d8f5ff.jpg",
+    "static/media/UberEats.d1535f5f.png": "/capstone-brochure/static/media/UberEats.d1535f5f.png",
+    "static/media/camosun_logo.36d97564.svg": "/capstone-brochure/static/media/camosun_logo.36d97564.svg",
+    "static/media/cheesy_ratings_picture.968de40c.jpg": "/capstone-brochure/static/media/cheesy_ratings_picture.968de40c.jpg",
+    "static/media/cuboh_dark.2f92521a.png": "/capstone-brochure/static/media/cuboh_dark.2f92521a.png",
     "static/media/thumbs-up-pip.dc5cefd0.png": "/capstone-brochure/static/media/thumbs-up-pip.dc5cefd0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3ac146bd.js",
     "static/css/2.af9592cd.chunk.css",
-    "static/js/2.cbe388f8.chunk.js",
-    "static/css/main.e82a88be.chunk.css",
-    "static/js/main.acd45c0d.chunk.js"
+    "static/js/2.5dd87241.chunk.js",
+    "static/css/main.af5f6948.chunk.css",
+    "static/js/main.b7dd8b87.chunk.js"
   ]
 }
