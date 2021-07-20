@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu } from 'antd';
-import { AppstoreOutlined, MailOutlined } from '@ant-design/icons';
+import { FundViewOutlined, ThunderboltOutlined, MergeCellsOutlined, StarOutlined, TeamOutlined } from '@ant-design/icons';
 
 
 class StandardMenu extends React.Component {
@@ -22,19 +22,19 @@ class StandardMenu extends React.Component {
         const { current } = this.state;
         return (
             <Menu theme="dark" onClick={this.handleClick} selectedKeys={[current]} mode="horizontal">
-                <Menu.Item key="welcome" icon={<MailOutlined />}>
+                <Menu.Item key="welcome" icon={<ThunderboltOutlined />}>
                     Welcome
                 </Menu.Item>
-                <Menu.Item key="AboutProject" icon={<AppstoreOutlined />}>
+                <Menu.Item key="AboutProject" icon={<FundViewOutlined />}>
                     About the Menu Reports Application
                 </Menu.Item>
-                <Menu.Item key="AboutTeam" icon={<AppstoreOutlined />}>
+                <Menu.Item key="AboutTeam" icon={<TeamOutlined />}>
                     About the Team
                 </Menu.Item>
-                <Menu.Item key="AboutSponsor" icon={<AppstoreOutlined />}>
+                <Menu.Item key="AboutSponsor" icon={<StarOutlined />}>
                     About the Sponsor
                 </Menu.Item>
-                <Menu.Item key="AboutCapstone" icon={<AppstoreOutlined />}>
+                <Menu.Item key="AboutCapstone" icon={<MergeCellsOutlined />}>
                     About Camosun Capstone
                 </Menu.Item>
             </Menu>

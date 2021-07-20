@@ -14,3 +14,32 @@
   float: right;
   margin: 16px 0 16px 24px;
 }
+
+.site-page-header {
+  font-size:150%;
+}
+
+h1 {
+  font-size:200%;
+}
+
+h2{
+  font-size:150%;
+  color:grey;
+}
+
+h3 {
+  font-size:150%;
+}
+
+h4 {
+  font-size:150%;
+}
+
+h5 {
+  font-size:150%;
+}
+
+p {
+  font-size:150%;
+}
