@@ -3,9 +3,6 @@ import { Space, Card } from 'antd';
 import tate from './Resources/Tate.jpg';
 import kyle from './Resources/Kyle.jpg';
 
-
-
-
 class AboutTeam extends React.Component {
 
     render() {
