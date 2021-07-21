@@ -32,7 +32,7 @@ class Welcome extends React.Component {
                 <Space style={{textAlign:'left' }} direction="horizontal">
                     <Space style={{textAlign:'left' }} direction="vertical">
                         <h3>What does the Menu Scraper App do? </h3>
-                        <p>Cuboh asked for a website that will collect marketing leads on local restaurants who maintain a presence in online food ordering platforms. Specifically, this website should attract restaurants with a presence on the big five platforms: Uber Eats, Skip the Dishes, Door Dash Grubhub and Chow Now. The application will generate feedback on a restaurant’s online menu by scraping the websites and emailing a report to the local restaurateur. In addition, it will send the email address to the Cuboh marketing team as sales leads.</p>
+                        <p>Cuboh asked for a website that will collect marketing leads on local restaurants who maintain a presence in online food ordering platforms. Specifically, this website should attract restaurants with a presence on the big five platforms: Uber Eats, Skip the Dishes, Door Dash, Grubhub, and Chow Now. The application will generate feedback on a restaurant’s online menu by scraping the websites and emailing a report to the local restaurateur. In addition, it will send the email address to the Cuboh marketing team as sales leads.</p>
                     </Space>
                 </Space>
                 </Card>
