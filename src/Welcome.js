@@ -13,7 +13,7 @@ class Welcome extends React.Component {
                         <h1>Welcome</h1>
                         <h2>Opening Sequence</h2>
                         <Space style={{textAlign:'left' }} direction="vertical">
-                            <h3>We're Capstone Team D, also know as Team Cuboh</h3>
+                            <h3>We're Capstone Team D, also known as Team Cuboh</h3>
                             <p>You've found our brochure website for Capstone 2021.</p>
                             <p>Team Cuboh’s project was commissioned by Cuboh Inc. to create an application to provide restaurants useful feedback on their online menus hosted on food ordering platforms. It is a react website with a flask backend API. The project is presently on schedule for a successful, timely, delivery.</p>
                         </Space>
